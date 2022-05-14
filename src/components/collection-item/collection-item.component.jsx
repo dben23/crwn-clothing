@@ -1,6 +1,5 @@
 import React from "react";
 import "./collection-item.styles.scss";
-import SHOP_DATA from "../../pages/shop/SHOP_DATA";
 
 function CollectionItem({ id, imageUrl, name, price }) {
   return (
@@ -13,7 +12,7 @@ function CollectionItem({ id, imageUrl, name, price }) {
       />
       <div className="collection-footer">
         <span className="name">{name}</span>
-        <span className="name">{price}</span>
+        <span className="price">{price}</span>
       </div>
     </div>
   );
